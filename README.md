@@ -1,37 +1,79 @@
-# JupyterLite Demo
+# BeatHub JupyterLite
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+This repository contains the JupyterLite build embedded within the BeatHub platform — an open-source initiative focused on Econophysics, algorithmic trading, and market analytics using JavaScript and Python. The JupyterLite environment allows users to run Python notebooks directly in their browser without needing a server or local installation.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+🌐 Visit the live JupyterLite interface:  
+https://amirgholizad.github.io/beathub-jupyterlite
 
-## ✨ Try it in your browser ✨
+---
 
-➡️ **https://jupyterlite.github.io/demo**
+## 🚀 Features
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+- ⚡ 100% client-side execution powered by Pyodide
+- 📁 Preloaded with BeatHub-related Python notebooks and libraries
+- 🔒 Runs securely in the browser sandbox
+- 🧠 Ideal for testing strategies, visualizing data, or exploring BeatHub's indicators
 
-## Requirements
+---
 
-JupyterLite is being tested against modern web browsers:
+## 🧱 Tech Stack
 
-- Firefox 90+
-- Chromium 89+
+- JupyterLite
+- Pyodide
+- WebAssembly
+- GitHub Pages for hosting
 
-## Deploy your JupyterLite website on GitHub Pages
+---
 
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
+## 📦 Build Instructions
 
-## Further Information and Updates
+If you want to modify or rebuild this JupyterLite instance locally:
 
-For more info, keep an eye on the JupyterLite documentation:
+1. Clone the repo:
 
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+   ```bash
+   git clone https://github.com/amirgholizad/beathub-jupyterlite.git
+   cd beathub-jupyterlite
+   ```
 
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
+2. Install dependencies (requires Node.js):
 
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
+   ```bash
+   npm install
+   ```
 
+3. Build the JupyterLite site:
 
+   ```bash
+   npm run build
+   ```
+
+4. Serve locally:
+
+   ```bash
+   npm run serve
+   ```
+
+5. Deploy to GitHub Pages (optional):
+
+   Make sure your GitHub Pages is configured to serve from the dist/ folder or configure your deployment script accordingly.
+
+---
+
+## 📝 Notebooks
+
+BeatHub's JupyterLite comes preloaded (or is compatible with) notebooks demonstrating:
+
+- Econophysics models
+- Technical indicator visualizations
+- Backtesting strategies
+- News sentiment analysis with Python
+
+You can drag and drop your own `.ipynb` files into the interface too!
+
+---
+
+## 🙌 Credits
+
+- Built using the official JupyterLite project: https://github.com/jupyterlite/jupyterlite
+- Part of the BeatHub ecosystem: https://beathub.dev
