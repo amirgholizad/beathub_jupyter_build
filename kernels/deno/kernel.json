@@ -1,8 +1,0 @@
-{
-  "argv": ["/bin/deno-kernel"],
-  "display_name": "Deno",
-  "language": "javascript",
-  "env": {
-    "DENO": "true"
-  }
-}
