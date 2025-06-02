@@ -1,16 +1,5 @@
 {
   "@jupyterlab/apputils-extension:themes": {
     "theme": "JupyterLab Dark"
-  },
-
-  "litePlugins": ["jupyterlite-kernel-deno"],
-  "jupyterConfigData": {
-    "kernelSpecs": {
-      "deno": {
-        "name": "deno",
-        "display_name": "Deno",
-        "language": "javascript"
-      }
-    }
   }
 }
