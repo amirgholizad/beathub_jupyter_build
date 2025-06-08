@@ -3,7 +3,7 @@
 This repository contains the JupyterLite build embedded within the BeatHub platform — an open-source initiative focused on Econophysics, algorithmic trading, and market analytics using JavaScript and Python. The JupyterLite environment allows users to run Python notebooks directly in their browser without needing a server or local installation.
 
 🌐 Visit the live JupyterLite interface:  
-https://amirgholizad.github.io/beathub-jupyterlite
+https://amirg.dev/beathub_jupyter_build/lab/index.html
 
 ---
 
