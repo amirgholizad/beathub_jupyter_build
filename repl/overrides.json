@@ -1,0 +1,24 @@
+{
+  "@jupyterlab/notebook-extension:panel": {
+    "toolbar": [
+      {
+        "name": "download",
+        "command": "docmanager:download",
+        "icon": "ui-components:download",
+        "rank": 10
+      },
+      {
+        "name": "restart",
+        "command": "kernelmenu:restart",
+        "icon": "ui-components:refresh",
+        "rank": 20
+      },
+      {
+        "name": "interrupt",
+        "command": "kernelmenu:interrupt",
+        "icon": "ui-components:stop",
+        "rank": 30
+      }
+    ]
+  }
+}
